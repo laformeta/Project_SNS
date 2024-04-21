@@ -17,8 +17,8 @@ public class FileManagerService {
 
 	// 실제 업로드가 된 이미지가 저장될 경로(서버)
 	public static final String FILE_UPLOAD_PATH
-	 = "D:\\kimseonghun\\6_spring_project\\SNS\\SNS_workspace\\images/"; // 학원용
-	// = "C:\\Users\\lafor\\Desktop\\backend bootcamp\\6.spring_project\\SNS\\sns_workspace\\images/"; // 집용
+	 = "C:\\Users\\lafor\\OneDrive\\Desktop\\JAVA\\SNS\\workspace_sns\\images/";  // 집용
+	// = "C:\\Users\\lafor\\Desktop\\backend bootcamp\\6.spring_project\\SNS\\sns_workspace\\images/"; // 예시
 
 	// input: MultipartFile(이미지 파일), loginId
 	// output: web image path(String)
